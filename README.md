@@ -29,21 +29,22 @@ The format of the two different types of packets can be found in the source-code
  
 <br>
 <br>
-This program uses code from the "RadioHead" project, converted from c++ to python
+This program uses code from the "RadioHead" project, converted from c++ to python:  
 - https://github.com/hallard/RadioHead/blob/master/RH_RF95.cpp
 - https://github.com/hallard/RadioHead/blob/master/RH_RF95.h
 
 <br>
-The original code of the RadioHead library was developed by Mike McCauley  
+<br>
+The original code of the RadioHead library was developed by Mike McCauley<br>
 [RadioHead: RadioHead Packet Radio library for embedded microprocessors](http://www.airspayce.com/mikem/arduino/RadioHead/)
  
 <br>
 <br>
 This code was tested on a TTGO T-beam, which uses a ESP32 and a "LORA32" radiochip.  
-[GitHub - LilyGO/TTGO-T-Beam](https://github.com/LilyGO/TTGO-T-Beam)  
+[GitHub - LilyGO/TTGO-T-Beam](https://github.com/LilyGO/TTGO-T-Beam)<br>
 The LORA32 is identical to the semtech sx1278.
 
 <br>
 <br>
-The code is written in micropython for fast and easy development and experimentation. More info about about running micropython on a ESP32 can be found here:  
+The code is written in micropython for fast and easy development and experimentation. More info about about running micropython on a ESP32 can be found here:<br>
 [Overview &mdash; MicroPython 1.18 documentation](https://docs.micropython.org/en/latest/index.html)
